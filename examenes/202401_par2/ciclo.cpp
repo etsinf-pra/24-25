@@ -45,9 +45,12 @@ int main() {
     }
     print(edges);
     
-    bool *visited = new bool[nnodes];
-    for(int i = 0; i < nnodes; i++)
-        visited[i] = false;
+    map<string, bool> visited;
+    for(auto &e: edges){
+        visited[e.first] = false;
+        visited[e.second] = false;
+    }
+
     bool detected = cyclerec(edges, 0, visited);
     cout << "Ciclo (rec): " << detected << endl;
 }
