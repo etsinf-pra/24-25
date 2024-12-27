@@ -1,6 +1,6 @@
 FICHEROS DE CÓDIGO
 
-Los ficheros contienen la implementación en C++ de las respuestas del examen de ejemplo. 
+Los ficheros contienen la implementación en C++ de las respuestas del segundo parcial. 
 En el examen se pide el pseudocódigo, no la implementación.
 
 cuckoo.cpp: códido que corresponde al ejercicio 1 (cuckoo hasing para resolver colisiones)

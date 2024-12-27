@@ -1,6 +1,6 @@
 FICHEROS DE CÓDIGO
 
-Los ficheros contienen la implementación en C++ de las respuestas del examen de ejemplo. 
+Los ficheros contienen la implementación en C++ de las respuestas del primer parcial. 
 En el examen se pide el pseudocódigo, no la implementación.
 
 power.cpp: códido que corresponde al ejercicio 1 (potencia de un número)
